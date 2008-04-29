@@ -2,6 +2,8 @@
 abstract: 'log events to an array (reference)'
 author:
   - 'Ricardo Signes, C<< <rjbs@cpan.org> >>'
+build_requires:
+  Test::Deep: 0
 distribution_type: module
 generated_by: 'Module::Install version 0.71'
 license: perl
@@ -13,4 +15,6 @@ no_index:
   directory:
     - inc
     - t
-version: 1.000
+requires:
+  Log::Dispatch::Output: 0
+version: 1.001
