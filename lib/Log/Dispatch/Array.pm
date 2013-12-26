@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Log::Dispatch::Array;
 {
-  $Log::Dispatch::Array::VERSION = '1.002';
+  $Log::Dispatch::Array::VERSION = '1.003';
 }
 use parent qw(Log::Dispatch::Output);
 # ABSTRACT: log events to an array (reference)
@@ -37,13 +37,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Log::Dispatch::Array - log events to an array (reference)
 
 =head1 VERSION
 
-version 1.002
+version 1.003
 
 =head1 SYNOPSIS
 
